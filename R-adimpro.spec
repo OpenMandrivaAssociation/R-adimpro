@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.7.5
+Version:          0.7.6
 Release:          1
 Summary:          Adaptive Smoothing of Digital Images
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/Archive/%{packname}/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
 Requires:         R-grDevices 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-grDevices
 BuildRequires:    blas-devel
