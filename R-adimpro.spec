@@ -11,6 +11,8 @@ URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/Archive/%{packname}/%{packname}_%{version}.tar.gz
 Requires:         R-grDevices 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-grDevices
+BuildRequires:    blas-devel
+BuildRequires:    lapack-devel
 %rename R-cran-adimpro
 
 %description
