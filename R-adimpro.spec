@@ -47,3 +47,48 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/img
 %{rlibdir}/%{packname}/libs
+
+
+%changelog
+* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.7.6-1
++ Revision: 775041
+- Update to latest version
+
+* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.7.5-1
++ Revision: 774843
+- Update and rebuild with R2spec
+- Update and rebuild with R2spec
+
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 0.4.4-9mdv2011.0
++ Revision: 616446
+- the mass rebuild of 2010.0 packages
+
+* Tue Sep 08 2009 Thierry Vignaud <tv@mandriva.org> 0.4.4-8mdv2010.0
++ Revision: 433149
+- BuildRequires lapack-devel
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tv@mandriva.org> 0.4.4-7mdv2009.0
++ Revision: 260121
+- rebuild
+- rebuild
+
+* Sat Mar 08 2008 Tomasz Pawel Gajc <tpg@mandriva.org> 0.4.4-4mdv2008.1
++ Revision: 182146
+- remove requires on libRlapack.so
+
+* Mon Mar 03 2008 Tomasz Pawel Gajc <tpg@mandriva.org> 0.4.4-3mdv2008.1
++ Revision: 177972
+- remove requires on libRblas.so
+
+* Fri Feb 29 2008 Tomasz Pawel Gajc <tpg@mandriva.org> 0.4.4-2mdv2008.1
++ Revision: 176961
+- remove requires on libR.so
+
+* Sun Feb 17 2008 Tomasz Pawel Gajc <tpg@mandriva.org> 0.4.4-1mdv2008.1
++ Revision: 170017
+- complete spec file
+- fix Url
+- add source and spec file
+- Created package structure for R-cran-adimpro.
+
