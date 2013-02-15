@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.7.6
+Version:          0.7.8
 Release:          1
 Summary:          Adaptive Smoothing of Digital Images
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/adimpro_0.7.8.tar.gz
 Requires:         R-grDevices 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-grDevices
 BuildRequires:    blas-devel
@@ -47,7 +47,7 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/img
 %{rlibdir}/%{packname}/libs
-
+%{rlibdir}/%{packname}/adjust
 
 %changelog
 * Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.7.6-1
@@ -91,4 +91,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 - fix Url
 - add source and spec file
 - Created package structure for R-cran-adimpro.
+
 
